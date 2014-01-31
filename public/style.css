@@ -32,14 +32,19 @@ body{
 }
 .heading, .subheading {
   font-family: 'Ubuntu', Helvetica, Arial, sans-serif;
+  text-align: justify;
 }
+h1, h2, h3{
+  text-align: center; 
+}
+
 p.lead {
   padding-top: 1.5%;
   font-size: 24px;
   line-height: 30px;
 }
 p {
-  font-size: 18px;
+  font-size: 19px;
   line-height: 24px;
 }
 
@@ -58,10 +63,10 @@ p.white {
   padding: 2% 0%;
 }
 .actions {
-  background-color: #343434;
+  background-color: #393939;
   padding: 3% 0%;
 }
-.video, .thermometer, .order, .social, .statistics {
+.asset, .video, .thermometer, .order, .social, .statistics {
   text-align: center;
 }
 .statistics h3, .statistics p {
