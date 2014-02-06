@@ -28,20 +28,34 @@
 
 /*Main body and headings*/
 body{
-  font-family:'Open Sans', Helvetica, Arial, sans-serif;
+  font-family: Helvetica, Arial, sans-serif;
+}
+.profit{
+  background-color: #00cccc;
 }
 .heading, .subheading {
   font-family: Helvetica, Arial, sans-serif;
-  text-align: justify;
+  padding-top: 50px;
 }
-h1, h2, h3{
+h3{
+  text-align: center;
+  color: #005599; 
+}
+h1 {
   text-align: center; 
+}
+h4 {
+  font-size: 18px;
+  color: #005599;
+  font-weight: lighter;
 }
 
 p.lead {
+  font-family: Arial, sans-serif;
   padding-top: 1.5%;
   font-size: 24px;
   line-height: 30px;
+  text-align: center;
 }
 p {
   font-size: 19px;
@@ -76,14 +90,15 @@ p.white {
 /* Marketing Copy and Footer*/
 .copy {
   padding-top: 2.5%;
-  padding-bottom: 2.5%;
-  text-align: justify;
+  padding-bottom: 1.5%;
+  text-align: left;
 }
 .asset {
   padding: 2.5% 0%;
 }
 .footer {
-  color: #cccccc;
+  padding-top: 2.5%;
+  color: #aaaaaa;
   text-align: center;
 }
 .footer p {
