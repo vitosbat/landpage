@@ -1,9 +1,11 @@
-	var express = require('express');
+var express = require('express');
 var fs = require('fs');
+// var path = require('path');
 
 var app = express();
 
 app.use(express.logger('dev'));
+app.use(express.favicon(__dirname + '/public/pic/favicon.ico'));
 app.use(express.static(__dirname + '/public'));
 
 app.get('/', function(request, response) {
